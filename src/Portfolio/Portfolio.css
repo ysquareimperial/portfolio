@@ -133,10 +133,11 @@
 }
 .intro {
   font-weight: bold;
+  font-size: 180%;
 }
 .intro_para {
   font-weight: lighter;
-  font-size: 17px;
+  font-size: 100%;
   /* text-align: ; */
 }
 .contact_me {
