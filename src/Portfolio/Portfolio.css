@@ -1,0 +1,238 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portfolio {
+  background-image: url(../images/pbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: -1;
+  transform: scale(1.1);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+.port_img {
+  width: 200px;
+  outline: 1px solid rgb(78, 160, 144);
+  outline-offset: 5px;
+  border-radius: 50%;
+}
+
+.img_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.port_name {
+  /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;  */
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.know_more {
+  border: none;
+  /* background-image: rgb(4, 40, 64); */
+  background-image: linear-gradient(90deg, rgb(4, 40, 64), rgb(78, 160, 144));
+  color: white;
+  padding: 10px 20px;
+  outline: 1px solid rgb(78, 160, 144);
+  outline-offset: 5px;
+  /* font-weight: bold; */
+  border-radius: 20px;
+}
+.know_more:hover {
+  background-image: linear-gradient(90deg, rgb(78, 160, 144), rgb(4, 40, 64));
+}
+
+.social_div {
+  position: absolute;
+  /* top: 50%;
+    left: 50%; */
+  left: 36%;
+  right: 36%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  max-width: 28%;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 20px;
+  padding: 5px;
+  /* transform: translate(-50%, -50%); */
+  /* z-index: 2; */
+  margin-bottom: 20px;
+  text-align: center;
+}
+.social_icons {
+  width: 40px;
+  transition: 300ms;
+}
+.social_icons:hover {
+  transform: rotate(360deg);
+  width: 60px;
+  cursor: pointer;
+}
+.clock_div {
+  /* z-index: 100; */
+}
+
+.clock {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.left_col {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_div {
+  /* background-image: linear-gradient(90deg, rgba(78, 160, 143, 0.116), rgba(4, 40, 64, 0.116));
+  border-radius: 20px;
+  padding: 10px; */
+}
+
+.yasir {
+  width: 400px;
+  border-radius: 50%;
+  /* outline: 1px solid rgb(78, 160, 144);
+  outline-offset: 5px; */
+  /* float: right; */
+  margin: 10px;
+  outline: 1px solid rgb(78, 160, 144);
+  outline-offset: 10px;
+
+  background-image: linear-gradient(
+    90deg,
+    rgba(78, 160, 143, 0.377),
+    rgba(4, 40, 64, 0.377)
+  );
+}
+
+.intro,
+.intro_para {
+  color: white;
+}
+.intro {
+  font-weight: bold;
+}
+.intro_para {
+  font-weight: lighter;
+  font-size: 17px;
+  /* text-align: ; */
+}
+.contact_me {
+  /* position: absolute; */
+  color: white;
+  position: absolute;
+  /* top: 50%;
+      left: 50%; */
+  left: 45%;
+  right: 45%;
+  width: 10%;
+  text-align: center;
+  bottom: 80px;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 20px;
+  padding: 5px;
+}
+.right_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mee {
+  height: 70vh;
+  outline: 1px solid rgb(78, 160, 144);
+  outline-offset: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 20px;
+  color: white !important;
+  /* border-left: 1px groove white; */
+  overflow-y: scroll;
+}
+
+.details_col {
+  border-radius: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(78, 160, 143, 0.26),
+    rgba(4, 40, 64, 0.26)
+  );
+  /* padding: 8px; */
+}
+.details_icons {
+  width: 150px;
+  transition: 500ms;
+  border-radius: 15px;
+  text-align: center;
+}
+.details_icons:hover {
+  /* width: 160px; */
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 177, 177);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(153, 153, 153);
+}
+@media only screen and (max-width: 768px) {
+  .yasir {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .contact_me,
+  .social_div {
+    display: none;
+  }
+  .mee {
+    height: fit-content;
+  }
+  .intro_div {
+    margin-top: -180px;
+    text-align: center;
+    /* margin: 5px; */
+  }
+  .mee {
+    margin-top: -120px;
+  }
+}
