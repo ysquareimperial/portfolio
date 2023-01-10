@@ -45,7 +45,7 @@ export default function AboutMe() {
           <Col md={8} className="">
             <Row className="left_col">
               <Col md={6} className=''>
-                <img src={yasir} className="yasir" />
+                <img src={yasir} className="yasir" alt='Yasir Ado Hassan'/>
               </Col>
               <Col md={6} className="">
                 <div className="intro_div">
@@ -164,12 +164,12 @@ export default function AboutMe() {
       <div className="social_div">
         <a href="mailto:ysquare.theimperial@gmail.com" target="_blank">
           <div>
-            <img src={gmail} className="social_icons" />
+            <img src={gmail} className="social_icons" alt='gmail'/>
           </div>
         </a>
         <a href="https://www.github.com/ysquareimperial" target="_blank">
           <div>
-            <img src={github} className="social_icons" />
+            <img src={github} className="social_icons" alt='github'/>
           </div>
         </a>
         <a
@@ -177,7 +177,7 @@ export default function AboutMe() {
           target="_blank"
         >
           <div>
-            <img src={linkedin} className="social_icons" />
+            <img src={linkedin} className="social_icons" alt='linkedin'/>
           </div>
         </a>
       </div>
