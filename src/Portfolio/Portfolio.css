@@ -23,6 +23,7 @@
   outline: 1px solid rgb(78, 160, 144);
   outline-offset: 5px;
   border-radius: 50%;
+  margin-top: 100px;
 }
 
 .content_div {
@@ -249,6 +250,9 @@
   .contact_me,
   .social_div {
     display: none;
+  }
+  .port_img{
+    width: 180px;
   }
   .mee {
     height: fit-content;
