@@ -1,8 +1,8 @@
 * {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .portfolio {
-  background-image: url(../images/pbg.jpg);
+  /* background-image: url(../images/pbg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +15,8 @@
   transform: scale(1.1);
   width: 100%;
   height: 100vh;
-  position: fixed;
+  position: fixed; */
+  background-color: black !important;
 }
 .port_img {
   width: 200px;
@@ -24,13 +25,25 @@
   border-radius: 50%;
 }
 
+.content_div {
+  background-image: url("../images/pbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* height: 100vh; */
+}
+
 .img_div {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  text-align: center; */
+  height: 100vh;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .port_name {
@@ -84,7 +97,7 @@
   transition: 300ms;
 }
 .social_icons:hover {
-  transform: rotate(360deg);
+  /* transform: rotate(360deg); */
   width: 60px;
   cursor: pointer;
 }
@@ -105,9 +118,7 @@
 }
 
 .intro_div {
-  /* background-image: linear-gradient(90deg, rgba(78, 160, 143, 0.116), rgba(4, 40, 64, 0.116));
-  border-radius: 20px;
-  padding: 10px; */
+  /* margin-top: 20rem; */
 }
 
 .yasir {
@@ -133,11 +144,11 @@
 }
 .intro {
   font-weight: bold;
-  font-size: 10vw;
+  /* font-size: 10vw; */
 }
 .intro_para {
   font-weight: lighter;
-  font-size: 5vw;
+  /* font-size: 5vw;  */
   /* text-align: ; */
 }
 .contact_me {
@@ -214,6 +225,20 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(153, 153, 153);
 }
+
+/* .image_div{
+  margin-bottom: 7rem;
+} */
+
+@media only screen and (min-width: 768px) {
+  .content_div {
+    background-image: url("../images/pbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+}
 @media only screen and (max-width: 768px) {
   .yasir {
     width: 150px;
@@ -235,5 +260,15 @@
   }
   .mee {
     margin-top: -120px;
+  }
+  .content_div {
+    background-image: url("../images/pbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position-y: center ;
+    /* height: 100%; */
+  }
+  .port_name {
+    font-size: 20px;
   }
 }

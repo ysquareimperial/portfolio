@@ -7,6 +7,7 @@ import linkedin from '../images/linkedin.png'
 // import projects from '../images/projects.jpg'
 // import resume from '../images/resume.jpg'
 import resumee from '../cv.pdf'
+import bg from '../images/pbg.jpg'
 import yasir from '../images/yasir.png'
 // import moment from 'moment'
 import { Col, Row } from 'reactstrap'
@@ -31,7 +32,7 @@ export default function AboutMe() {
   //   },
   // ]
   return (
-    <div>
+    <div className="content_div">
       <div className="portfolio m-0 p-0"></div>
       <div className="clock_div text-white text-center">
         {/* <h1 className="clock">{moment(start).format('HH : MM')}</h1> */}
@@ -40,12 +41,12 @@ export default function AboutMe() {
       {/* text to speech intro
       contact me bouncing */}
       {/* ////////////////////////////////////////////////////////////////////// */}
-      <div className="content_div">
+      <div className="">
         <Row className="m-0 p-0">
           <Col md={8} className="">
             <Row className="left_col">
-              <Col md={6} className=''>
-                <img src={yasir} className="yasir" alt='Yasir Ado Hassan'/>
+              <Col md={6} className="image_div">
+                <img src={yasir} className="yasir" alt="Yasir Ado Hassan" />
               </Col>
               <Col md={6} className="">
                 <div className="intro_div">
@@ -60,9 +61,9 @@ export default function AboutMe() {
               </Col>
             </Row>
           </Col>
-          <Col md={4} className="right_col p-3 mt-2">
+          <Col md={4} className="right_col p-3 mt-2 mb-5">
             <div>
-              <div className='mee'>
+              <div className="mee">
                 <h4 style={{ fontWeight: 'bold' }}>Skills</h4>
                 <ul>
                   <li>HTML</li>
@@ -164,12 +165,12 @@ export default function AboutMe() {
       <div className="social_div">
         <a href="mailto:ysquare.theimperial@gmail.com" target="_blank">
           <div>
-            <img src={gmail} className="social_icons" alt='gmail'/>
+            <img src={gmail} className="social_icons" alt="gmail" />
           </div>
         </a>
         <a href="https://www.github.com/ysquareimperial" target="_blank">
           <div>
-            <img src={github} className="social_icons" alt='github'/>
+            <img src={github} className="social_icons" alt="github" />
           </div>
         </a>
         <a
@@ -177,9 +178,10 @@ export default function AboutMe() {
           target="_blank"
         >
           <div>
-            <img src={linkedin} className="social_icons" alt='linkedin'/>
+            <img src={linkedin} className="social_icons" alt="linkedin" />
           </div>
         </a>
+        
       </div>
     </div>
   )
