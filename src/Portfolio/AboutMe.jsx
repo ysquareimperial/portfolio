@@ -73,7 +73,7 @@ export default function AboutMe() {
                   <li>ReactNative</li>
                 </ul>
                 <h4 style={{ fontWeight: 'bold' }}>Projects</h4>
-                <p className="m-0">Some of the projects of I've worked on:</p>
+                <p className="m-0">Some of the projects I've worked on:</p>
                 <ul>
                   <li>
                     <a
