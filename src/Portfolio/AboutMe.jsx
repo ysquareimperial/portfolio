@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import gmail from '../images/email.png'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
@@ -7,15 +7,22 @@ import linkedin from '../images/linkedin.png'
 // import projects from '../images/projects.jpg'
 // import resume from '../images/resume.jpg'
 import resumee from '../cv.pdf'
+import { AiOutlineClose } from 'react-icons/ai'
 import bg from '../images/pbg.jpg'
 import yasir from '../images/yasir.png'
+import dc from '../images/dc.png'
+import snd from '../images/snd.png'
+import bit from '../images/bit.png'
+import hms from '../images/hms.png'
+import srec from '../images/srec.png'
 // import moment from 'moment'
-import { Col, Row } from 'reactstrap'
+import { FiExternalLink } from 'react-icons/fi'
+import { Col, Modal, ModalBody, Row } from 'reactstrap'
 export default function AboutMe() {
-  // const [open, setOpen] = useState(false)
-  // const toggle = () => {
-  //   setOpen(!open)
-  // }
+  const [open, setOpen] = useState(false)
+  const openModal = () => {
+    setOpen(!open)
+  }
   // const start = moment().add(-4, 'm')
   // const detailsImages = [
   //   {
@@ -57,6 +64,9 @@ export default function AboutMe() {
                     development. I use frontend technologies to create solutions
                     to real-world problems.
                   </p>
+                  {/* <button className="know_more mt-2 mb-3" onClick={openModal}>
+                  View list of projects
+                </button> */}
                 </div>
               </Col>
             </Row>
@@ -73,7 +83,161 @@ export default function AboutMe() {
                   <li>ReactNative</li>
                 </ul>
                 <h4 style={{ fontWeight: 'bold' }}>Projects</h4>
-                <p className="m-0">Some of the projects I've worked on:</p>
+                <button className="know_more mt-2 mb-3" onClick={openModal}>
+                  View list of projects
+                </button>
+                <Modal isOpen={open} toggle={openModal} size="lg">
+                  <div style={{ display: 'flex', justifyContent: 'flex-end', marginRight:20, marginTop:20 }}>
+                    <AiOutlineClose onClick={openModal} size="2rem" style={{cursor:'pointer'}}/>
+                  </div>
+                  <ModalBody className="p-4">
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={dc}
+                          alt="DrugCipher"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">DrugCipher</p>
+                        <p className="project_description">
+                          Blockchain based anti-counterfeit system that allows
+                          manufacturers to create and keep track of their
+                          pharmaceutical products. It also allows consumers to
+                          check the authenticity of a product.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://drugcipher.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            https://drugcipher.com/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={snd}
+                          alt="Sand Tireda"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Sanda Tireda</p>
+                        <p className="project_description">
+                          Sanda Tireda Limited is a distribution and logistics
+                          company headquartered in Kano, Nigeria.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://sandatireda.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            https://sandatireda.com/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={bit}
+                          alt="Sand Tireda"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Bitcoops</p>
+                        <p className="project_description">
+                          BitCoop is the perfect app for managing your
+                          cooperative society. Keep track of your members,
+                          finances and operations with ease.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://bitcoops.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            https://bitcoops.com/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={srec}
+                          alt="Sand Tireda"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">sRecords</p>
+                        <p className="project_description">
+                          sRecord is a web-based platform that helps teachers
+                          generate students reports by creating classes,
+                          subjects, students and records.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href=" https://srecord.vercel.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            https://srecord.vercel.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={hms}
+                          alt="Sand Tireda"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Homes</p>
+                        <p className="project_description">
+                          fdafasfasdf afsdfasdf fasdfas fadf fasf asf fasdf
+                          afsdfasf afasdf afa fasdfasdf afasdfasa fasdf
+                          adfasdfasdfadf adfasdfasdf
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href=" https://homes-three.vercel.app"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            https://homes-three.vercel.app <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                  </ModalBody>
+                </Modal>
+                {/* <p className="m-0">Some of the projects I've worked on:</p>
                 <ul>
                   <li>
                     <a
@@ -135,7 +299,7 @@ export default function AboutMe() {
                       Homes
                     </a>
                   </li>
-                </ul>
+                </ul> */}
                 <h4 style={{ fontWeight: 'bold' }}>Education</h4>
                 <ul>
                   <li>Diploma, Information Technology</li>
@@ -181,7 +345,6 @@ export default function AboutMe() {
             <img src={linkedin} className="social_icons" alt="linkedin" />
           </div>
         </a>
-        
       </div>
     </div>
   )

@@ -208,7 +208,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -231,6 +231,23 @@
   margin-bottom: 7rem;
 } */
 
+.project_image {
+  width: 300px;
+  /* margin: auto; */
+  /* border-radius: 20px; */
+}
+.project_title {
+  font-weight: bold;
+}
+.project_link > a {
+  background-color: rgb(4, 40, 64);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.project_link > a:hover {
+  color: rgb(78, 160, 144);
+}
 @media only screen and (min-width: 768px) {
   .content_div {
     background-image: url("../images/pbg.png");
@@ -251,7 +268,7 @@
   .social_div {
     display: none;
   }
-  .port_img{
+  .port_img {
     width: 180px;
   }
   .mee {
@@ -269,7 +286,7 @@
     background-image: url("../images/pbg.png");
     background-position: center;
     background-size: cover;
-    background-position-y: center ;
+    background-position-y: center;
     /* height: 100%; */
   }
   .port_name {
