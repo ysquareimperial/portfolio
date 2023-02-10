@@ -10,11 +10,11 @@ import resumee from '../cv.pdf'
 import { AiOutlineClose } from 'react-icons/ai'
 import bg from '../images/pbg.jpg'
 import yasir from '../images/yasir.png'
-// import dc from '../images/dc.png'
-import snd from '../images/snd.png'
-import bit from '../images/bit.png'
-import hms from '../images/hms.png'
-import srec from '../images/srec.png'
+import drugcipher from '../images/drugcipher.png'
+import sanda from '../images/sanda.png'
+import bitcoops from '../images/bitcoops.png'
+import homes from '../images/homes.png'
+import srecords from '../images/srecords.png'
 // import moment from 'moment'
 import { FiExternalLink } from 'react-icons/fi'
 import { Col, Modal, ModalBody, Row } from 'reactstrap'
@@ -93,11 +93,11 @@ export default function AboutMe() {
                   <ModalBody className="p-4">
                     <Row>
                       <Col md={6} className="p-2">
-                        {/* <img
-                          src={dc}
+                        <img
+                          src={drugcipher}
                           alt="DrugCipher"
                           className="project_image shadow"
-                        /> */}
+                        />
                       </Col>
                       <Col md={6} className="p-2">
                         <p className="project_title">DrugCipher</p>
@@ -124,7 +124,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={snd}
+                          src={sanda}
                           alt="Sand Tireda"
                           className="project_image shadow"
                         />
@@ -152,7 +152,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={bit}
+                          src={bitcoops}
                           alt="Sand Tireda"
                           className="project_image shadow"
                         />
@@ -181,7 +181,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={srec}
+                          src={srecords}
                           alt="Sand Tireda"
                           className="project_image shadow"
                         />
@@ -210,7 +210,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={hms}
+                          src={homes}
                           alt="Sand Tireda"
                           className="project_image shadow"
                         />
