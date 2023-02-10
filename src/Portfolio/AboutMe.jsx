@@ -10,7 +10,7 @@ import resumee from '../cv.pdf'
 import { AiOutlineClose } from 'react-icons/ai'
 import bg from '../images/pbg.jpg'
 import yasir from '../images/yasir.png'
-import dc from '../images/dc.png'
+// import dc from '../images/dc.png'
 import snd from '../images/snd.png'
 import bit from '../images/bit.png'
 import hms from '../images/hms.png'
@@ -93,11 +93,11 @@ export default function AboutMe() {
                   <ModalBody className="p-4">
                     <Row>
                       <Col md={6} className="p-2">
-                        <img
+                        {/* <img
                           src={dc}
                           alt="DrugCipher"
                           className="project_image shadow"
-                        />
+                        /> */}
                       </Col>
                       <Col md={6} className="p-2">
                         <p className="project_title">DrugCipher</p>
