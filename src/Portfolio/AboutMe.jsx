@@ -8,13 +8,10 @@ import linkedin from '../images/linkedin.png'
 // import resume from '../images/resume.jpg'
 import resumee from '../cv.pdf'
 import { AiOutlineClose } from 'react-icons/ai'
-import bg from '../images/pbg.jpg'
+// import bg from '../images/pbg.jpg'
 import yasir from '../images/yasir.png'
-import drugcipher from '../images/drugcipher.png'
-import sanda from '../images/sanda.png'
-import bitcoops from '../images/bitcoops.png'
-import homes from '../images/homes.png'
-import srecords from '../images/srecords.png'
+
+// import srecords from '../images/srecords.png'
 // import moment from 'moment'
 import { FiExternalLink } from 'react-icons/fi'
 import { Col, Modal, ModalBody, Row } from 'reactstrap'
@@ -54,7 +51,7 @@ export default function AboutMe() {
             <Row className="left_col">
               <Col md={6} className="image_div">
                 <img src={yasir} className="yasir" alt="Yasir Ado Hassan" />
-              </Col>
+              </Col>  
               <Col md={6} className="">
                 <div className="intro_div">
                   <h2 className="intro">Hi, I am a Frontend Engineer.</h2>
@@ -94,7 +91,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={drugcipher}
+                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655667/drugcipher_rjrzda.png'
                           alt="DrugCipher"
                           className="project_image shadow"
                         />
@@ -124,8 +121,8 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={sanda}
-                          alt="Sand Tireda"
+                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655654/sanda_jkqyvd.png'
+                          alt="Sanda Tireda"
                           className="project_image shadow"
                         />
                       </Col>
@@ -152,8 +149,8 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={bitcoops}
-                          alt="Sand Tireda"
+                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655656/bitcoops_nlmogy.png'
+                          alt="Bitcoops"
                           className="project_image shadow"
                         />
                       </Col>
@@ -181,8 +178,8 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={srecords}
-                          alt="Sand Tireda"
+                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655922/srecords_d21wnj.png'
+                          alt="sRecords"
                           className="project_image shadow"
                         />
                       </Col>
@@ -210,8 +207,8 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={homes}
-                          alt="Sand Tireda"
+                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655649/homes_xajfyz.png'
+                          alt="Homes"
                           className="project_image shadow"
                         />
                       </Col>

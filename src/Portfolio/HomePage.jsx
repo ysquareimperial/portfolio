@@ -5,6 +5,9 @@ import { useNavigate } from 'react-router-dom'
 
 export default function HomePage() {
   const goto = useNavigate()
+  // function goto(){
+  //   return useNavigate()
+  // }
   return (
     <div className="content_div">
       <div className="img_div">
