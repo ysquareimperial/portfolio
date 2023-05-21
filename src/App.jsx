@@ -16,8 +16,9 @@ function App() {
     <div>
       {/* <HomePage/> */}
       {/* <AboutMe/> */}
-      <AppNavigation />
-      {/* <RemovingItem/> */}
+      {/* <AppNavigation /> */}
+      <AddingItem/>
+      <RemovingItem/>
       {/* <ReplacingItems/> */}
       {/* <ShoppingCart/> */}
     </div>

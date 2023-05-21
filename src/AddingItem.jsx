@@ -14,12 +14,15 @@ export default function AddingItem() {
     // artists.push({ id: nextId++, name: name })
   }
   return (
-    <div>
+    <div> 
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <button onClick={handleAddArtist}>Add</button>
       <ul>
         {artists.map((item, index) => (
-          <li key={item.id}>{item.name}</li>
+          <>
+            <li key={item.id}>{item.name}</li>
+            <button onClick={() => setArtists}>dlt</button>
+          </>
         ))}
       </ul>
     </div>
