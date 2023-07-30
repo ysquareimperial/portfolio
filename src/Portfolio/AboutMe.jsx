@@ -1,69 +1,42 @@
-import React, { useState } from 'react'
-import gmail from '../images/email.png'
-import github from '../images/github.png'
-import linkedin from '../images/linkedin.png'
-// import skills from '../images/skills.jpg'
-// import education from '../images/education.jpg'
-// import projects from '../images/projects.jpg'
-// import resume from '../images/resume.jpg'
-import resumee from '../cv.pdf'
-import { AiOutlineClose } from 'react-icons/ai'
-// import bg from '../images/pbg.jpg'
-import yasir from '../images/yasir.png'
-
-// import srecords from '../images/srecords.png'
-// import moment from 'moment'
-import { FiExternalLink } from 'react-icons/fi'
-import { Col, Modal, ModalBody, Row } from 'reactstrap'
+import React, { useState } from "react";
+import gmail from "../images/email.png";
+import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
+import resumee from "../cv.pdf";
+import { AiOutlineClose } from "react-icons/ai";
+import yasir from "../images/new-yasir.png";
+import { FiExternalLink } from "react-icons/fi";
+import { Col, Modal, ModalBody, Row } from "reactstrap";
 export default function AboutMe() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   const openModal = () => {
-    setOpen(!open)
-  }
-  // const start = moment().add(-4, 'm')
-  // const detailsImages = [
-  //   {
-  //     source: skills,
-  //   },
-  //   {
-  //     source: projects,
-  //   },
-  //   {
-  //     source: education,
-  //   },
-  //   {
-  //     source: resume,
-  //   },
-  // ]
+    setOpen(!open);
+  };
   return (
     <div className="content_div">
       <div className="portfolio m-0 p-0"></div>
-      <div className="clock_div text-white text-center">
-        {/* <h1 className="clock">{moment(start).format('HH : MM')}</h1> */}
-      </div>
-      {/* ////////////////////////////////////////////////////////////////////// */}
-      {/* text to speech intro
-      contact me bouncing */}
-      {/* ////////////////////////////////////////////////////////////////////// */}
       <div className="">
         <Row className="m-0 p-0">
           <Col md={8} className="">
             <Row className="left_col">
               <Col md={6} className="image_div">
-                <img src={yasir} className="yasir" alt="Yasir Ado Hassan" />
-              </Col>  
+                <img
+                  src={yasir}
+                  className="yasir shadow"
+                  alt="Yasir Ado Hassan"
+                />
+              </Col>
               <Col md={6} className="">
                 <div className="intro_div">
-                  <h2 className="intro">Hi, I am a Frontend Engineer.</h2>
+                  <h2 className="intro">
+                    Hi, I am a Frontend Software Engineer.
+                  </h2>
                   <p className="intro_para">
                     My name is Yasir Ado Hassan (ysquareimperial). I am a
-                    Frontend Engineer with half a decade experience in web
-                    development. I use frontend technologies to create solutions
-                    to real-world problems.
+                    Frontend Software Engineer with half a decade experience in
+                    web development. I use frontend technologies to create
+                    solutions to real-world problems.
                   </p>
-                  {/* <button className="know_more mt-2 mb-3" onClick={openModal}>
-                  View list of projects
-                </button> */}
                 </div>
               </Col>
             </Row>
@@ -71,7 +44,7 @@ export default function AboutMe() {
           <Col md={4} className="right_col p-3 mt-2 mb-5">
             <div>
               <div className="mee">
-                <h4 style={{ fontWeight: 'bold' }}>Skills</h4>
+                <h4 style={{ fontWeight: "bold" }}>Skills</h4>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -79,19 +52,30 @@ export default function AboutMe() {
                   <li>ReactJs</li>
                   <li>ReactNative</li>
                 </ul>
-                <h4 style={{ fontWeight: 'bold' }}>Projects</h4>
+                <h4 style={{ fontWeight: "bold" }}>Projects</h4>
                 <button className="know_more mt-2 mb-3" onClick={openModal}>
-                  View list of projects
+                  Some of my projects
                 </button>
                 <Modal isOpen={open} toggle={openModal} size="lg">
-                  <div style={{ display: 'flex', justifyContent: 'flex-end', marginRight:20, marginTop:20 }}>
-                    <AiOutlineClose onClick={openModal} size="2rem" style={{cursor:'pointer'}}/>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      marginRight: 20,
+                      marginTop: 20,
+                    }}
+                  >
+                    <AiOutlineClose
+                      onClick={openModal}
+                      size="2rem"
+                      style={{ cursor: "pointer" }}
+                    />
                   </div>
                   <ModalBody className="p-4">
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655667/drugcipher_rjrzda.png'
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655667/drugcipher_rjrzda.png"
                           alt="DrugCipher"
                           className="project_image shadow"
                         />
@@ -110,7 +94,7 @@ export default function AboutMe() {
                             href="https://drugcipher.com/"
                             rel="noreferrer"
                             target="_blank"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: "none" }}
                           >
                             https://drugcipher.com/ <FiExternalLink />
                           </a>
@@ -121,7 +105,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655654/sanda_jkqyvd.png'
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655654/sanda_jkqyvd.png"
                           alt="Sanda Tireda"
                           className="project_image shadow"
                         />
@@ -138,7 +122,7 @@ export default function AboutMe() {
                             href="https://sandatireda.com/"
                             rel="noreferrer"
                             target="_blank"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: "none" }}
                           >
                             https://sandatireda.com/ <FiExternalLink />
                           </a>
@@ -149,7 +133,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655656/bitcoops_nlmogy.png'
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655656/bitcoops_nlmogy.png"
                           alt="Bitcoops"
                           className="project_image shadow"
                         />
@@ -167,7 +151,7 @@ export default function AboutMe() {
                             href="https://bitcoops.com/"
                             rel="noreferrer"
                             target="_blank"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: "none" }}
                           >
                             https://bitcoops.com/ <FiExternalLink />
                           </a>
@@ -178,7 +162,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655922/srecords_d21wnj.png'
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655922/srecords_d21wnj.png"
                           alt="sRecords"
                           className="project_image shadow"
                         />
@@ -196,7 +180,7 @@ export default function AboutMe() {
                             href=" https://srecord.vercel.app/"
                             rel="noreferrer"
                             target="_blank"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: "none" }}
                           >
                             https://srecord.vercel.app/ <FiExternalLink />
                           </a>
@@ -207,7 +191,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677655649/homes_xajfyz.png'
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655649/homes_xajfyz.png"
                           alt="Homes"
                           className="project_image shadow"
                         />
@@ -225,7 +209,7 @@ export default function AboutMe() {
                             href=" https://homes-three.vercel.app"
                             rel="noreferrer"
                             target="_blank"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: "none" }}
                           >
                             https://homes-three.vercel.app <FiExternalLink />
                           </a>
@@ -234,89 +218,24 @@ export default function AboutMe() {
                     </Row>
                   </ModalBody>
                 </Modal>
-                {/* <p className="m-0">Some of the projects I've worked on:</p>
-                <ul>
-                  <li>
-                    <a
-                      href="https://drugcipher.com/"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      DrugCipher
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://app.bitcoops.com/"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      Bitcoops
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://sandatireda.com/"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      Sanda Tireda
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://srecord.vercel.app/"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      sRecords
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://voucher-app.netlify.app/"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      e-Voucher
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://homes-three.vercel.app"
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      Homes
-                    </a>
-                  </li>
-                </ul> */}
-                <h4 style={{ fontWeight: 'bold' }}>Education</h4>
+                <h4 style={{ fontWeight: "bold" }}>Education</h4>
                 <ul>
                   <li>Diploma, Information Technology</li>
                   <li>B.Sc. Software Engineering</li>
                   <li>Masters Certificate in Cloud Architect </li>
                   <li>EF SET English Certificate</li>
                 </ul>
-                <h4 style={{ fontWeight: 'bold' }}>Resume</h4>
-                <ul>
-                  <li>
-                    <a
-                      href={resumee}
-                      rel="noreferrer"
-                      target="_blank"
-                      style={{ textDecoration: 'none', color: 'white' }}
-                    >
-                      Resume
-                    </a>
-                  </li>
-                </ul>
+                <h4 style={{ fontWeight: "bold" }}>Resume</h4>
+                <button className="know_more mt-2 mb-3">
+                  <a
+                    href={resumee}
+                    rel="noreferrer"
+                    target="_blank"
+                    style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
+                  >
+                    View Resume
+                  </a>
+                </button>
               </div>
             </div>
           </Col>
@@ -344,5 +263,5 @@ export default function AboutMe() {
         </a>
       </div>
     </div>
-  )
+  );
 }
