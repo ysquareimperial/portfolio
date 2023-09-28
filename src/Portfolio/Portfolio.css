@@ -34,7 +34,7 @@
 .know_more {
   border: none;
   background-color: white;
-  color: rgba(99, 4, 44, 1);
+  /* color: rgba(99, 4, 44, 1); */
   padding: 10px 20px;
   outline-offset: 5px;
   border-radius: 20px;
@@ -166,7 +166,8 @@
 }
 .project_link > a {
   background-color: white;
-  color: rgba(99, 4, 44, 1);
+  /* color: rgba(99, 4, 44, 1); */
+  color: black;
   padding: 10px;
   border-radius: 20px;
 }
@@ -176,11 +177,12 @@
 @media only screen and (min-width: 768px) {
   .content_div {
     background: rgb(217, 187, 211);
-    background: radial-gradient(
+    /* background: radial-gradient(
       circle,
       rgba(217, 187, 211, 1) 0%,
       rgba(99, 4, 44, 1) 100%
-    );
+    ); */
+    background: url('../images/pbg.png');
     height: 100vh;
   }
 }
@@ -212,11 +214,13 @@
   }
   .content_div {
     background: rgb(217, 187, 211);
-    background: radial-gradient(
+    /* background: radial-gradient(
       circle,
       rgba(217, 187, 211, 1) 0%,
       rgba(99, 4, 44, 1) 100%
-    );
+    ); */
+    background: url('../images/pbg.png');
+
   }
   .port_name {
     font-size: 20px;

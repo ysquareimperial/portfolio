@@ -199,9 +199,9 @@ export default function AboutMe() {
                       <Col md={6} className="p-2">
                         <p className="project_title">Homes</p>
                         <p className="project_description">
-                          fdafasfasdf afsdfasdf fasdfas fadf fasf asf fasdf
-                          afsdfasf afasdf afa fasdfasdf afasdfasa fasdf
-                          adfasdfasdfadf adfasdfasdf
+                          Home Real Estate: A trusted partner for expert
+                          guidance in buying, selling, and investing in real
+                          estate.
                         </p>
                         <p className="project_link">
                           <a
@@ -212,6 +212,95 @@ export default function AboutMe() {
                             style={{ textDecoration: "none" }}
                           >
                             https://homes-three.vercel.app <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1695938065/cygio_xgedq2.png"
+                          alt="cygio"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Cygio</p>
+                        <p className="project_description">
+                          Cygio is Africa’s largest social management platform,
+                          combining the power of social creation, social
+                          listening, and influncer marketing to enable in-house
+                          brands build the ultimate customer experience.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://cygio.netlify.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://cygio.netlify.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1695938574/du-it_avybad.png"
+                          alt="Du-it"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Du-it</p>
+                        <p className="project_description">
+                          The Du-it app, built with React.js, simplifies task
+                          management for staffs, making workdays more efficient
+                          and collaborative.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://du-it.vercel.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://du-it.vercel.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1695939311/fwd_afvhxi.png"
+                          alt="Weather"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Weather UI</p>
+                        <p className="project_description">
+                          Discover the weather like never before with the
+                          React-powered UI. Get real-time updates in a sleek and
+                          user-friendly interface. Stay informed and make the
+                          most of your day.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://fwd-assessment.vercel.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://fwd-assessment.vercel.app/ <FiExternalLink />
                           </a>
                         </p>
                       </Col>
@@ -231,7 +320,8 @@ export default function AboutMe() {
                     href={resumee}
                     rel="noreferrer"
                     target="_blank"
-                    style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
+                    style={{ textDecoration: "none", color: "black" }}
+                    // style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
                   >
                     View Resume
                   </a>
