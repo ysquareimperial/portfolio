@@ -46,18 +46,18 @@ export default function AboutMe() {
               <div className="mee">
                 <h4 style={{ fontWeight: "bold" }}>Skills</h4>
                 <ul>
-                  <li>UI/UX</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>Material UI</li>
-                  <li>JavaScript</li>
-                  <li>TypeScript</li>
-                  <li>ReactJs</li>
-                  <li>NextJs</li>
-                  <li>Redux</li>
-                  <li>API Integration</li>
-                  <li>Github</li>
+                  {/* <li style={{fontSize:12}}>UI/UX</li> */}
+                  <li style={{fontSize:12}}>HTML & CSS</li>
+                  {/* <li style={{fontSize:12}}>CSS</li> */}
+                  <li style={{fontSize:12}}>Bootstrap</li>
+                  <li style={{fontSize:12}}>Material UI</li>
+                  <li style={{fontSize:12}}>JavaScript & TypeScript</li>
+                  {/* <li style={{fontSize:12}}>TypeScript</li> */}
+                  <li style={{fontSize:12}}>ReactJS & NextJS</li>
+                  {/* <li style={{fontSize:12}}>NextJs</li> */}
+                  <li style={{fontSize:12}}>Redux</li>
+                  <li style={{fontSize:12}}>API Integration</li>
+                  {/* <li style={{fontSize:12}}>Github</li> */}
                 </ul>
                 <h4 style={{ fontWeight: "bold" }}>Projects</h4>
                 <button className="know_more mt-2 mb-3" onClick={openModal}>
