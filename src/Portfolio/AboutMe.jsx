@@ -32,10 +32,12 @@ export default function AboutMe() {
                     Hi, I am a Frontend Software Engineer.
                   </h2>
                   <p className="intro_para">
-                    My name is Yasir Ado Hassan (ysquareimperial). I am a
-                    Frontend Software Engineer with half a decade experience in
-                    web development. I use frontend technologies to create
-                    solutions to real-world problems.
+                    I am Yasir Ado Hassan, professionally known as
+                    'ysquareimperial.' As a Frontend Software Engineer,
+                    I have three years of hands-on experience in web
+                    development. My expertise lies in leveraging
+                    cutting-edge frontend technologies to craft innovative
+                    solutions for real-world challenges.
                   </p>
                 </div>
               </Col>
@@ -47,16 +49,16 @@ export default function AboutMe() {
                 <h4 style={{ fontWeight: "bold" }}>Skills</h4>
                 <ul>
                   {/* <li style={{fontSize:12}}>UI/UX</li> */}
-                  <li style={{fontSize:12}}>HTML & CSS</li>
+                  <li style={{ fontSize: 12 }}>HTML & CSS</li>
                   {/* <li style={{fontSize:12}}>CSS</li> */}
-                  <li style={{fontSize:12}}>Bootstrap</li>
-                  <li style={{fontSize:12}}>Material UI</li>
-                  <li style={{fontSize:12}}>JavaScript & TypeScript</li>
+                  <li style={{ fontSize: 12 }}>Bootstrap</li>
+                  <li style={{ fontSize: 12 }}>Material UI</li>
+                  <li style={{ fontSize: 12 }}>JavaScript & TypeScript</li>
                   {/* <li style={{fontSize:12}}>TypeScript</li> */}
-                  <li style={{fontSize:12}}>ReactJS & NextJS</li>
+                  <li style={{ fontSize: 12 }}>ReactJS & NextJS</li>
                   {/* <li style={{fontSize:12}}>NextJs</li> */}
-                  <li style={{fontSize:12}}>Redux</li>
-                  <li style={{fontSize:12}}>API Integration</li>
+                  <li style={{ fontSize: 12 }}>Redux</li>
+                  <li style={{ fontSize: 12 }}>API Integration</li>
                   {/* <li style={{fontSize:12}}>Github</li> */}
                 </ul>
                 <h4 style={{ fontWeight: "bold" }}>Projects</h4>
@@ -307,7 +309,8 @@ export default function AboutMe() {
                             target="_blank"
                             style={{ textDecoration: "none" }}
                           >
-                            https://fwd-assessment.vercel.app/ <FiExternalLink />
+                            https://fwd-assessment.vercel.app/{" "}
+                            <FiExternalLink />
                           </a>
                         </p>
                       </Col>
