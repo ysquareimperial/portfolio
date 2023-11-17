@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import gmail from "../images/email.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import resumee from "../cv.pdf";
+import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
 import { AiOutlineClose } from "react-icons/ai";
 import yasir from "../images/new-yasir.png";
 import { FiExternalLink } from "react-icons/fi";
@@ -343,7 +343,7 @@ export default function AboutMe() {
       </div>
       <p className="contact_me">contact me</p>
       <div className="social_div">
-        <a href="mailto:ysquare.theimperial@gmail.com" target="_blank">
+        <a href="mailto:ysquareimperial@gmail.com" target="_blank">
           <div>
             <img src={gmail} className="social_icons" alt="gmail" />
           </div>
