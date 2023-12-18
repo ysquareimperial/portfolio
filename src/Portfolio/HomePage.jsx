@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import yasir from "../images/new-yasir.png";
+import yasir from "../images/yasss.png";
 import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {

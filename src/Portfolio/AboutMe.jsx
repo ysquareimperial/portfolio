@@ -4,7 +4,7 @@ import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
 import { AiOutlineClose } from "react-icons/ai";
-import yasir from "../images/new-yasir.png";
+import yasir from "../images/yasss.png";
 import { FiExternalLink } from "react-icons/fi";
 import { Col, Modal, ModalBody, Row } from "reactstrap";
 export default function AboutMe() {
