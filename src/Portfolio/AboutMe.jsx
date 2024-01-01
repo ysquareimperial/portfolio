@@ -32,12 +32,17 @@ export default function AboutMe() {
                     Hi, I am a Frontend Software Engineer.
                   </h2>
                   <p className="intro_para">
-                    I am Yasir Ado Hassan, professionally known as
+                    {/* I am Yasir Ado Hassan, professionally known as
                     'ysquareimperial.' As a Frontend Software Engineer, I have
                     three years of hands-on experience in web development. My
                     expertise lies in leveraging cutting-edge frontend
                     technologies to craft innovative solutions for real-world
-                    challenges.
+                    challenges. */}
+                    Hello, I'm Yasir Ado Hassan, a Frontend Software Engineer
+                    with three years of experience. I am proficient in
+                    translating design concepts into responsive interfaces, I am
+                    passionate about crafting seamless user experiences and
+                    eager to contribute my skills to innovative projects.
                   </p>
                 </div>
               </Col>
