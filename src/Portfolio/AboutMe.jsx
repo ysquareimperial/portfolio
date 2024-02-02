@@ -58,6 +58,7 @@ export default function AboutMe() {
                   {/* <li style={{fontSize:12}}>CSS</li> */}
                   <li style={{ fontSize: 12 }}>Bootstrap</li>
                   <li style={{ fontSize: 12 }}>Material UI</li>
+                  {/* <li style={{ fontSize: 12 }}>UX/UI</li> */}
                   <li style={{ fontSize: 12 }}>JavaScript & TypeScript</li>
                   {/* <li style={{fontSize:12}}>TypeScript</li> */}
                   <li style={{ fontSize: 12 }}>ReactJS & NextJS</li>
@@ -329,7 +330,7 @@ export default function AboutMe() {
                   <li>Masters Certificate in Cloud Architect </li>
                   <li>EF SET English Certificate</li>
                 </ul>
-                <h4 style={{ fontWeight: "bold" }}>Resume</h4>
+                <h4 style={{ fontWeight: "bold" }}>Resume <span style={{fontWeight:'normal', fontSize:14}}>(To see full details)</span></h4>
                 <button className="know_more mt-2 mb-3">
                   <a
                     href={resumee}
@@ -348,7 +349,7 @@ export default function AboutMe() {
       </div>
       <p className="contact_me">contact me</p>
       <div className="social_div">
-        <a href="mailto:ysquareimperial@gmail.com" target="_blank">
+        <a href="mailto:ysquare.theimperial@gmail.com" target="_blank">
           <div>
             <img src={gmail} className="social_icons" alt="gmail" />
           </div>
