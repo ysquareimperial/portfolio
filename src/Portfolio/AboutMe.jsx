@@ -90,6 +90,38 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1708447848/wenyfour_oevxtv.jpg"
+                          alt="Wenyfoiur"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Wenyfour</p>
+                        <p className="project_description">
+                          Wenyfour is a carpooling platform designed to connect
+                          drivers with available seats to passengers traveling
+                          in the same direction. It aims to reduce traffic
+                          congestion, lower transportation costs, and promote
+                          environmental sustainability by maximizing vehicle
+                          occupancy.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://wenyfour.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://wenyfour.com/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655667/drugcipher_rjrzda.png"
                           alt="DrugCipher"
                           className="project_image shadow"
@@ -106,12 +138,44 @@ export default function AboutMe() {
                         <p className="project_link">
                           <a
                             className="shadow"
-                            href="https://drugcipher.com/"
+                            href="https://drugcipher.vercel.app/"
                             rel="noreferrer"
                             target="_blank"
                             style={{ textDecoration: "none" }}
                           >
-                            https://drugcipher.com/ <FiExternalLink />
+                            https://drugcipher.vercel.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1708447848/mylikita_drkeyl.jpg"
+                          alt="mylikita"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">MyLikita</p>
+                        <p className="project_description">
+                          Mylikita is a project focused on creating a
+                          personalized e-commerce platform for beauty and
+                          cosmetic products. As a frontend engineer, my role
+                          involved developing and enhancing the user interface,
+                          implementing features to optimize product browsing and
+                          purchasing, and ensuring cross-browser compatibility.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://mylikita.clinic/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://mylikita.clinic/ <FiExternalLink />
                           </a>
                         </p>
                       </Col>
@@ -330,7 +394,12 @@ export default function AboutMe() {
                   <li>Masters Certificate in Cloud Architect </li>
                   <li>EF SET English Certificate</li>
                 </ul>
-                <h4 style={{ fontWeight: "bold" }}>Resume <span style={{fontWeight:'normal', fontSize:14}}>(To see full details)</span></h4>
+                <h4 style={{ fontWeight: "bold" }}>
+                  Resume{" "}
+                  <span style={{ fontWeight: "normal", fontSize: 14 }}>
+                    (To see full details)
+                  </span>
+                </h4>
                 <button className="know_more mt-2 mb-3">
                   <a
                     href={resumee}
