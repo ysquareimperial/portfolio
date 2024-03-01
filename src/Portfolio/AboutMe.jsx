@@ -75,11 +75,11 @@ export default function AboutMe() {
                   <div
                     style={{
                       display: "flex",
-                      justifyContent: "flex-end",
-                      marginRight: 20,
-                      marginTop: 20,
+                      justifyContent: "space-between",
                     }}
+                    className="p-3"
                   >
+                    <h4>Projects</h4>
                     <AiOutlineClose
                       onClick={openModal}
                       size="2rem"
@@ -267,7 +267,7 @@ export default function AboutMe() {
                       </Col>
                     </Row>
                     <hr />
-                    <Row>
+                    {/* <Row>
                       <Col md={6} className="p-2">
                         <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655649/homes_xajfyz.png"
@@ -294,8 +294,8 @@ export default function AboutMe() {
                           </a>
                         </p>
                       </Col>
-                    </Row>
-                    <hr />
+                    </Row> */}
+                    {/* <hr /> */}
                     <Row>
                       <Col md={6} className="p-2">
                         <img
@@ -325,8 +325,8 @@ export default function AboutMe() {
                         </p>
                       </Col>
                     </Row>
-                    <hr />
-                    <Row>
+                    {/* <hr /> */}
+                    {/* <Row>
                       <Col md={6} className="p-2">
                         <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1695938574/du-it_avybad.png"
@@ -383,8 +383,8 @@ export default function AboutMe() {
                             <FiExternalLink />
                           </a>
                         </p>
-                      </Col>
-                    </Row>
+                      </Col> 
+                  </Row>*/}
                   </ModalBody>
                 </Modal>
                 <h4 style={{ fontWeight: "bold" }}>Education</h4>
