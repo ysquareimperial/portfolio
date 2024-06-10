@@ -44,6 +44,10 @@ export default function AboutMe() {
                     passionate about crafting seamless user experiences and
                     eager to contribute my skills to innovative projects.
                   </p>
+                  <img
+                    src="https://www.codewars.com/users/ysquareimperial/badges/small"
+                    alt=""
+                  />
                 </div>
               </Col>
             </Row>
