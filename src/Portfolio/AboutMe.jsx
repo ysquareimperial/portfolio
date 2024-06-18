@@ -433,7 +433,7 @@ export default function AboutMe() {
           </div>
         </a>
         <a
-          href="https://www.linkedin.com/in/yasir-ado-hassan-670047223/"
+          href="https://www.linkedin.com/in/ysquareimperial/"
           target="_blank"
         >
           <div>
