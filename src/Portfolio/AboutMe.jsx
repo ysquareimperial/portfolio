@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import gmail from "../images/email.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
+// import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
+import resumee from "../Ado Yasir Hassan CV.pdf";
 import { AiOutlineClose } from "react-icons/ai";
 import yasir from "../images/yasss.png";
 import { FiExternalLink } from "react-icons/fi";
@@ -69,6 +70,8 @@ export default function AboutMe() {
                   {/* <li style={{fontSize:12}}>NextJs</li> */}
                   <li style={{ fontSize: 12 }}>Redux</li>
                   <li style={{ fontSize: 12 }}>API Integration</li>
+                  <li style={{ fontSize: 12 }}>Hausa</li>
+                  <li style={{ fontSize: 12 }}>English Translation</li>
                   {/* <li style={{fontSize:12}}>Github</li> */}
                 </ul>
                 <h4 style={{ fontWeight: "bold" }}>Projects</h4>
@@ -410,7 +413,7 @@ export default function AboutMe() {
                     rel="noreferrer"
                     target="_blank"
                     style={{ textDecoration: "none", color: "black" }}
-                    // style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
+                  // style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
                   >
                     View Resume
                   </a>
