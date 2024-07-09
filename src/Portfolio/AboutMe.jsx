@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import gmail from "../images/email.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-// import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
-import resumee from "../Ado Yasir Hassan CV.pdf";
+import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
+// import resumee from "../Ado Yasir Hassan CV.pdf";
 import { AiOutlineClose } from "react-icons/ai";
 import yasir from "../images/yasss.png";
 import { FiExternalLink } from "react-icons/fi";
@@ -45,10 +45,10 @@ export default function AboutMe() {
                     passionate about crafting seamless user experiences and
                     eager to contribute my skills to innovative projects.
                   </p>
-                  <img
+                  {/* <img
                     src="https://www.codewars.com/users/ysquareimperial/badges/small"
                     alt=""
-                  />
+                  /> */}
                 </div>
               </Col>
             </Row>
@@ -98,7 +98,7 @@ export default function AboutMe() {
                       <Col md={6} className="p-2">
                         <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1708447848/wenyfour_oevxtv.jpg"
-                          alt="Wenyfoiur"
+                          alt="Wenyfour"
                           className="project_image shadow"
                         />
                       </Col>
