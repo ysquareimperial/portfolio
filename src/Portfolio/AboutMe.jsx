@@ -6,10 +6,6 @@ import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
 // import resumee from "../Ado Yasir Hassan CV.pdf";
 import { AiOutlineClose } from "react-icons/ai";
 import yasir from "../images/yasss.png";
-import srecords from "../images/srecords.png";
-import hotostash from "../images/hotostash.png";
-import transapp from "../images/transapp.png";
-import know from "../images/knowtify.png";
 import { FiExternalLink } from "react-icons/fi";
 import { Col, Modal, ModalBody, Row } from "reactstrap";
 export default function AboutMe() {
@@ -99,7 +95,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={hotostash}
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1736599942/iftenvptclm0mvsfwurr.png`}
                           alt="hotostash"
                           className="project_image shadow"
                         />
@@ -255,7 +251,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={srecords}
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1736599941/wx3dfqqqpgivlnah0ypp.png`}
                           alt="sRecords"
                           className="project_image shadow"
                         />
@@ -343,7 +339,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={transapp}
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1736600016/transapp_fopkwh.png`}
                           alt="transapp"
                           className="project_image shadow"
                         />
@@ -374,7 +370,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src={know}
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1736599941/yghvbb9lgxsjrwnwzi49.png`}
                           alt="knowtify"
                           className="project_image shadow"
                         />
