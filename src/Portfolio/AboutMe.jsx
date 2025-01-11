@@ -6,6 +6,10 @@ import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
 // import resumee from "../Ado Yasir Hassan CV.pdf";
 import { AiOutlineClose } from "react-icons/ai";
 import yasir from "../images/yasss.png";
+import srecords from "../images/srecords.png";
+import hotostash from "../images/hotostash.png";
+import transapp from "../images/transapp.png";
+import know from "../images/knowtify.png";
 import { FiExternalLink } from "react-icons/fi";
 import { Col, Modal, ModalBody, Row } from "reactstrap";
 export default function AboutMe() {
@@ -29,9 +33,7 @@ export default function AboutMe() {
               </Col>
               <Col md={6} className="">
                 <div className="intro_div">
-                  <h2 className="intro">
-                    Hi, I am a Frontend Software Engineer.
-                  </h2>
+                  <h2 className="intro">Hi, I am a Software Engineer.</h2>
                   <p className="intro_para">
                     {/* I am Yasir Ado Hassan, professionally known as
                     'ysquareimperial.' As a Frontend Software Engineer, I have
@@ -39,11 +41,12 @@ export default function AboutMe() {
                     expertise lies in leveraging cutting-edge frontend
                     technologies to craft innovative solutions for real-world
                     challenges. */}
-                    Hello, I'm Yasir Ado Hassan, a Frontend Software Engineer
-                    with three years of experience. I am proficient in
-                    translating design concepts into responsive interfaces, I am
-                    passionate about crafting seamless user experiences and
-                    eager to contribute my skills to innovative projects.
+                    Hello, I'm Yasir Ado Hassan, a Software Engineer and RPA
+                    Developer with three years of experience. I specialize in
+                    creating responsive interfaces and automating processes to
+                    enhance efficiency. With a passion for crafting seamless
+                    user experiences and driving innovation, I am eager to bring
+                    my expertise to impactful projects.
                   </p>
                   {/* <img
                     src="https://www.codewars.com/users/ysquareimperial/badges/small"
@@ -61,17 +64,16 @@ export default function AboutMe() {
                   {/* <li style={{fontSize:12}}>UI/UX</li> */}
                   <li style={{ fontSize: 12 }}>HTML & CSS</li>
                   {/* <li style={{fontSize:12}}>CSS</li> */}
-                  <li style={{ fontSize: 12 }}>Bootstrap</li>
                   <li style={{ fontSize: 12 }}>Material UI</li>
+                  <li style={{ fontSize: 12 }}>Tailwind CSS</li>
                   {/* <li style={{ fontSize: 12 }}>UX/UI</li> */}
                   <li style={{ fontSize: 12 }}>JavaScript & TypeScript</li>
                   {/* <li style={{fontSize:12}}>TypeScript</li> */}
                   <li style={{ fontSize: 12 }}>ReactJS & NextJS</li>
+                  <li style={{ fontSize: 12 }}>React Native with Expo</li>
                   {/* <li style={{fontSize:12}}>NextJs</li> */}
                   <li style={{ fontSize: 12 }}>Redux</li>
                   <li style={{ fontSize: 12 }}>API Integration</li>
-                  <li style={{ fontSize: 12 }}>Hausa</li>
-                  <li style={{ fontSize: 12 }}>English Translation</li>
                   {/* <li style={{fontSize:12}}>Github</li> */}
                 </ul>
                 <h4 style={{ fontWeight: "bold" }}>Projects</h4>
@@ -97,30 +99,35 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1708447848/wenyfour_oevxtv.jpg"
-                          alt="Wenyfour"
+                          src={hotostash}
+                          alt="hotostash"
                           className="project_image shadow"
                         />
                       </Col>
                       <Col md={6} className="p-2">
-                        <p className="project_title">Wenyfour</p>
+                        <p className="project_title">Hotostash</p>
                         <p className="project_description">
-                          Wenyfour is a carpooling platform designed to connect
-                          drivers with available seats to passengers traveling
-                          in the same direction. It aims to reduce traffic
-                          congestion, lower transportation costs, and promote
-                          environmental sustainability by maximizing vehicle
-                          occupancy.
+                          Hotostash is an innovative platform where users can
+                          create albums, invite friends and family, organize
+                          events, and manage contributions seamlessly. It
+                          enables users to upload, share, and download event
+                          photos, ensuring memories are stashed forever. With
+                          features like transparent contributions,
+                          consensus-based fund release, and the ability to
+                          auto-generate event invitation cards, Hotostash
+                          combines convenience and collaboration for weddings,
+                          birthdays, parties, and more. Slogan: Your Treasure
+                          Foreva!
                         </p>
                         <p className="project_link">
                           <a
                             className="shadow"
-                            href="https://wenyfour.com/"
+                            href="https://www.hotostash.com/auth"
                             rel="noreferrer"
                             target="_blank"
                             style={{ textDecoration: "none" }}
                           >
-                            https://wenyfour.com/ <FiExternalLink />
+                            https://hotstash.com/ <FiExternalLink />
                           </a>
                         </p>
                       </Col>
@@ -177,12 +184,12 @@ export default function AboutMe() {
                         <p className="project_link">
                           <a
                             className="shadow"
-                            href="https://mylikita.clinic/"
+                            href="https://mylikita.com/"
                             rel="noreferrer"
                             target="_blank"
                             style={{ textDecoration: "none" }}
                           >
-                            https://mylikita.clinic/ <FiExternalLink />
+                            https://mylikita.com/ <FiExternalLink />
                           </a>
                         </p>
                       </Col>
@@ -248,7 +255,7 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
-                          src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655922/srecords_d21wnj.png"
+                          src={srecords}
                           alt="sRecords"
                           className="project_image shadow"
                         />
@@ -263,7 +270,7 @@ export default function AboutMe() {
                         <p className="project_link">
                           <a
                             className="shadow"
-                            href=" https://srecord.vercel.app/"
+                            href="https://srecord.netlify.app/"
                             rel="noreferrer"
                             target="_blank"
                             style={{ textDecoration: "none" }}
@@ -332,7 +339,70 @@ export default function AboutMe() {
                         </p>
                       </Col>
                     </Row>
-                    {/* <hr /> */}
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={transapp}
+                          alt="transapp"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Trans App</p>
+                        <p className="project_description">
+                          TransApp is a ride-booking app for interstate travel,
+                          offering users a seamless way to schedule rides,
+                          choose vehicle types, and pay securely. With features
+                          like live tracking and verified drivers, it ensures
+                          safe and convenient long-distance travel.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://transappng.netlify.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://transappng.netlify.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={know}
+                          alt="knowtify"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Knowtify</p>
+                        <p className="project_description">
+                          Knowtify is an app designed to disseminate vital
+                          information to farmers, providing them with knowledge
+                          on farming techniques, best practices, and market
+                          trends for farm produce. It empowers farmers with
+                          real-time updates, weather forecasts, and expert
+                          advice to enhance productivity and improve
+                          decision-making in agriculture.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://knowtify.netlify.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://knowtify.netlify.app/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
                     {/* <Row>
                       <Col md={6} className="p-2">
                         <img
@@ -413,7 +483,7 @@ export default function AboutMe() {
                     rel="noreferrer"
                     target="_blank"
                     style={{ textDecoration: "none", color: "black" }}
-                  // style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
+                    // style={{ textDecoration: "none", color:'rgba(99, 4, 44, 1)'}}
                   >
                     View Resume
                   </a>
@@ -435,10 +505,7 @@ export default function AboutMe() {
             <img src={github} className="social_icons" alt="github" />
           </div>
         </a>
-        <a
-          href="https://www.linkedin.com/in/ysquareimperial/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/ysquareimperial/" target="_blank">
           <div>
             <img src={linkedin} className="social_icons" alt="linkedin" />
           </div>
