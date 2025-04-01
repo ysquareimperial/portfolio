@@ -29,7 +29,9 @@ export default function AboutMe() {
               </Col>
               <Col md={6} className="">
                 <div className="intro_div">
-                  <h2 className="intro">Hi, I am a Software Engineer.</h2>
+                  <h2 className="intro">
+                    Hi, I am a Frontend Software Engineer.
+                  </h2>
                   <p className="intro_para">
                     {/* I am Yasir Ado Hassan, professionally known as
                     'ysquareimperial.' As a Frontend Software Engineer, I have
@@ -37,12 +39,13 @@ export default function AboutMe() {
                     expertise lies in leveraging cutting-edge frontend
                     technologies to craft innovative solutions for real-world
                     challenges. */}
-                    Hello, I'm Yasir Ado Hassan, a Software Engineer and RPA
-                    Developer with three years of experience. I specialize in
-                    creating responsive interfaces and automating processes to
-                    enhance efficiency. With a passion for crafting seamless
-                    user experiences and driving innovation, I am eager to bring
-                    my expertise to impactful projects.
+                    Hey there! I’m Yasir Ado Hassan, a Frontend Software
+                    Engineer with 5 years of experience in building awesome,
+                    responsive interfaces. I love making websites that look
+                    great and work even better—because who wants to deal with
+                    clunky, slow pages? I’m all about smooth user experiences,
+                    and I’m always up for creating something fun and functional.
+                    Let’s build something amazing together!
                   </p>
                   {/* <img
                     src="https://www.codewars.com/users/ysquareimperial/badges/small"
