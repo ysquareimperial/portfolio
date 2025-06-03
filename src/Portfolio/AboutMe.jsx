@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import gmail from "../images/email.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import resumee from "../001 - Yasir Ado Hassan - Resume.pdf";
+import resumee from "../../Yasir Ado Hassan Resume.pdf";
 // import resumee from "../Ado Yasir Hassan CV.pdf";
 import { AiOutlineClose } from "react-icons/ai";
-import yasir from "../images/yasss.png";
+// import yasir from "../images/yasss.png";
+import yasir from "../images/yasir.png";
 import { FiExternalLink } from "react-icons/fi";
 import { Col, Modal, ModalBody, Row } from "reactstrap";
 export default function AboutMe() {
@@ -29,23 +30,16 @@ export default function AboutMe() {
               </Col>
               <Col md={6} className="">
                 <div className="intro_div">
-                  <h2 className="intro">
-                    Hi, I am a Frontend Software Engineer.
-                  </h2>
+                  <h2 className="intro">Hi,</h2>
                   <p className="intro_para">
-                    {/* I am Yasir Ado Hassan, professionally known as
-                    'ysquareimperial.' As a Frontend Software Engineer, I have
-                    three years of hands-on experience in web development. My
-                    expertise lies in leveraging cutting-edge frontend
-                    technologies to craft innovative solutions for real-world
-                    challenges. */}
-                    Hey there! I’m Yasir Ado Hassan, a Frontend Software
-                    Engineer with 5 years of experience in building awesome,
-                    responsive interfaces. I love making websites that look
-                    great and work even better—because who wants to deal with
-                    clunky, slow pages? I’m all about smooth user experiences,
-                    and I’m always up for creating something fun and functional.
-                    Let’s build something amazing together!
+                    I'm a frontend engineer with 5 years of experience building
+                    responsive, user-friendly web apps using React. I care a lot
+                    about clean, maintainable code and creating smooth,
+                    intuitive user experiences. Over the years, I've worked
+                    closely with designers, backend teams, and product folks to
+                    bring ideas to life in the browser. I enjoy solving real
+                    problems with thoughtful UI and staying up to date with the
+                    latest in frontend development.
                   </p>
                   {/* <img
                     src="https://www.codewars.com/users/ysquareimperial/badges/small"
@@ -309,7 +303,7 @@ export default function AboutMe() {
                       </Col>
                     </Row> */}
                     {/* <hr /> */}
-                    <Row>
+                    {/* <Row>
                       <Col md={6} className="p-2">
                         <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1695938065/cygio_xgedq2.png"
@@ -337,8 +331,8 @@ export default function AboutMe() {
                           </a>
                         </p>
                       </Col>
-                    </Row>
-                    <hr />
+                    </Row> */}
+                    {/* <hr />
                     <Row>
                       <Col md={6} className="p-2">
                         <img
@@ -368,8 +362,8 @@ export default function AboutMe() {
                           </a>
                         </p>
                       </Col>
-                    </Row>
-                    <hr />
+                    </Row> */}
+                    {/* <hr /> */}
                     <Row>
                       <Col md={6} className="p-2">
                         <img
