@@ -129,6 +129,76 @@ export default function AboutMe() {
                     <Row>
                       <Col md={6} className="p-2">
                         <img
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1760625827/Screenshot_2025-10-14_145845_fjoqna.png`}
+                          alt="intellitoggle"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Intellitoggle</p>
+                        <p className="project_description">
+                          IntelliToggle is a feature-flagging / configuration
+                          management platform built specifically for Dart and
+                          Flutter ecosystems. It lets engineering teams remotely
+                          control which features are enabled (or disabled) for
+                          users, roll out updates gradually (e.g. percentage
+                          rollouts), perform instant rollbacks or “kill
+                          switches,” and safely test experimentation in
+                          production. The system boasts minimal latency, full
+                          type-safety, real-time updates, and compatibility with
+                          the OpenFeature standard.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://www.intellitoggle.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://www.intellitoggle.com/ <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
+                          src={`https://res.cloudinary.com/dx5ilizca/image/upload/v1760626498/Screenshot_2025-10-16_155145_o1arvk.png`}
+                          alt="legal"
+                          className="project_image shadow"
+                        />
+                      </Col>
+                      <Col md={6} className="p-2">
+                        <p className="project_title">Legal Aid Platform</p>
+                        <p className="project_description">
+                          This Legal Aid Platform connects complainants with
+                          lawyers through an admin-managed system where users
+                          can submit legal complaints, administrators approve
+                          and assign cases to verified lawyers, and all parties
+                          track case progress in real-time through role-specific
+                          dashboards with status updates from submission to
+                          resolution.
+                        </p>
+                        <p className="project_link">
+                          <a
+                            className="shadow"
+                            href="https://court-management-system-eight.vercel.app/signup"
+                            rel="noreferrer"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
+                            https://court-management-system-eight.app
+                            <FiExternalLink />
+                          </a>
+                        </p>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                      <Col md={6} className="p-2">
+                        <img
                           src="https://res.cloudinary.com/dx5ilizca/image/upload/v1677655667/drugcipher_rjrzda.png"
                           alt="DrugCipher"
                           className="project_image shadow"
